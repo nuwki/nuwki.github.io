@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Marianne;
+    font-weight: 800;
+    src: url("./font/Marianne-Medium.otf");
+}
+
+
+body {
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+}
+
+.text-titlepolice {
+    font-family: "Marianne",serif;
+    font-style: normal;
+    display: flex;
+    position: absolute;
+    font-size: 1.5vw ;
+    margin-top: 3vh;
+    margin-left: 8vw;
+    
+}
+
+.image_mstr {
+    position:absolute;
+    width: 12vh;
+    margin-left: 0.2vh;
+    margin-top: 2vh;
+
+}
+
+.fr-btn {
+    position: relative; 
+    align-content: center;
+    padding: 1vh 1vw;
+    margin-right: 13vh;
+    background: #000091;
+    font-family: "Marianne",serif;
+    border: none;
+    color: #ffff;
+    margin-top: 15vh;
+    margin-left: 5.4vh;
+}
+
+.information {
+    font-family: "Marianne",serif;
+    font-style: normal;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    font-size: 1vw ;
+    margin-top: 3vh;
+    margin-left: 70vw;
+    color: #8D8D8D
+}
+
+a{
+    color:#000091
+}
+
+.information-page {
+    font-family: "Marianne",serif;
+    font-style: normal;
+    display: flex;
+    position: absolute;
+    font-size: 1vw ;
+    margin-top: 25vh;
+    margin-left: 55.5vh;
+    color: #8D8D8D
+}

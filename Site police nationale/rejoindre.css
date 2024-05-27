@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Marianne;
+    font-weight: 800;
+    src: url("./font/Marianne-Medium.otf");
+}
+
+
+body {
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+}
+.text-titlepolice {
+    font-family: "Marianne",serif;
+    font-style: normal;
+    display: flex;
+    position: absolute;
+    font-size: 1.5vw ;
+    margin-top: 1vh;
+    margin-left: 8vw;
+    
+}
+
+.image_mstr {
+    position:absolute;
+    width: 12vh;
+    margin-left: 0.2vh;
+
+}

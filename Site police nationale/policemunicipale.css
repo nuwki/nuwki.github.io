@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Marianne;
+    font-weight: 800;
+    src: url("./font/Marianne-Medium.otf");
+}
+
+
+body {
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: "Marianne";
+}
+
+.image_mstr {
+    position:absolute;
+    width: 12vh;
+    margin-left: 0.2vh;
+    margin-top: 2vh;
+
+}
+
+.text-titlepolice {
+    font-family: "Marianne",serif;
+    font-style: normal;
+    display: flex;
+    position: absolute;
+    font-size: 1.5vw ;
+    margin-top: 3vh;
+    margin-left: 8vw;
+    
+}
+
+.text-soustitre {
+    font-family: "Marianne",serif;
+    font-style: normal;
+    display: flex;
+    position: absolute;
+    font-size: 1.5vw ;
+    margin-top: 7vh;
+    margin-left: 8vw;
+
+}
+.fr-btn {
+    position: relative; 
+    align-content: center;
+    padding: 1vh 1vw;
+    margin-right: 6vh;
+    background: #000091;
+    font-family: "Marianne",serif;
+    border: none;
+    color: #ffff;
+    margin-top: 15vh;
+    margin-left: 0.5vh;
+}
+
+.retour-btn {
+    position: absolute;
+    align-content: center;
+    background: none;
+    font-family: "Marianne", serif;
+    color: #000;
+    border: #ffff;
+    font-size: 1.5vw ;
+    margin-top: 0.23vh;
+    margin-left: 4.6vw;
+}
+
+.haut {
+    font-family: "Marianne",serif;
+    font-style: normal;
+    display: flex;
+    position: absolute;
+    font-size: 1.5vw ;
+    margin-top: 3vh;
+    margin-left: 168vh;
+}
+
+.logopm {
+
+    position:absolute;
+    width: 10vh;
+    margin-left: 200vh;
+    margin-top: 2vh;
+
+}
